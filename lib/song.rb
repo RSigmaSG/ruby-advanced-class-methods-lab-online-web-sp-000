@@ -63,8 +63,8 @@ class Song
     
     file_arr = file_name.gsub(".mp3", "").split(" - ")
     
-    new_song = create_by_name(file_arr[0])
-    new_song.artist_name = file_arr[1]
+    new_song = create_by_name(file_arr[1])
+    new_song.artist_name = file_arr[0]
     
   end
 
