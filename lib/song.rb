@@ -75,6 +75,7 @@ class Song
     new_song = create_by_name(file_arr[1])
     new_song.artist_name = file_arr[0]
     
+    new_song 
   end
   
   def self.destroy_all
